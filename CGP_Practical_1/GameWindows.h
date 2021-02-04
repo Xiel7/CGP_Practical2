@@ -16,12 +16,12 @@ private:
 	WNDCLASS wndClass;
 	bool isFullscreen;
 
-	GameWindows();
+	GameWindows();do
 public:
 	int r;
 	int g;
 	int b;
-	int speed;
+	int speed; //why this vars are public and not private you ask? because i am fkin lazy to do getters and setters in a fkin practical
 
 	static GameWindows* getInstance();
 	void createWindow();
