@@ -21,7 +21,7 @@ public:
 	int r;
 	int g;
 	int b;
-	int speed; //why this vars are public and not private you ask? because i am fkin lazy to do getters and setters in a fkin practical
+	int speed; //why these vars are public and not private you ask? because i am fkin lazy to do getters and setters in a fkin practical
 
 	static GameWindows* getInstance();
 	void createWindow();
